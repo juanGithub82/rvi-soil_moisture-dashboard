@@ -32,7 +32,7 @@ fig_feno = px.line(
     title=f"Serie temporal RVI para la parcela {shape} "
 )
 
-
+fig_feno.update_yaxes(range=[0,1])
 
 
 fig_feno.update_layout(template="plotly_dark")
