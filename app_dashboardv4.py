@@ -41,10 +41,10 @@ fig_feno.update_layout(template="plotly_dark")
 fig_display = fig_feno
 st.plotly_chart(fig_display, use_container_width=True)
 
-fig_export = fig_feno
-fig_export.update_layout(width=1600, height=700)
+#fig_export = fig_feno
+#fig_export.update_layout(width=1600, height=700)
 
-fig_export.write_image(f"rvi_{shape}.png", scale=2)
+#fig_export.write_image(f"rvi_{shape}.png", scale=2)
 
 #fig_feno.write_image(f"rvi_{shape}.png", width=1400, height=600, scale=2)
 
